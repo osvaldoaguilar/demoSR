@@ -17,4 +17,4 @@ jobs:
         env:
           HF_USER: ${{ secrets.HF_USER }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://$HF_USER:$HF_TOKEN@huggingface.co/spaces/voila-dashboards/voila-huggingface main --force
+        run: git push https://$HF_USER:$HF_TOKEN@huggingface.co/spaces/osvaldoA/demoSR main --force

@@ -1,5 +1,13 @@
 FROM condaforge/mambaforge:latest
 
+# Actualiza e instala lo necesario para el demo
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    python3-dev \
+    libgl1 \
+    libglib2.0-0 \
+    && rm -rf /var/lib/apt/lists/*
+
 # The HF Space container runs with user ID 1000.
 RUN useradd -m -u 1000 user
 USER user

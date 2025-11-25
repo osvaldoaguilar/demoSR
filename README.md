@@ -8,7 +8,7 @@ pinned: true
 license: mit
 ---
 
-# Prototipo de restauracion de imagágenes digitales
+# Prototipo de restauración de imágenes digitales
 
 Este repositorio contiene la implementación del prototipo dashboard de Voila desde GitHub. [Hugging Face Spaces](https://huggingface.co/spaces). 
 
